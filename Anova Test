@@ -1,0 +1,4 @@
+proc anova data = my_data;
+class F;
+model N = F;
+run;
