@@ -1,0 +1,3 @@
+proc freq data=my_data;
+tables Group*Year / chisq trend  measures cl;
+run;
